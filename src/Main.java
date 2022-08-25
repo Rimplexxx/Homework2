@@ -1,25 +1,32 @@
 public class Main {
     public static void main(String[] args) {
 
-        //Задача 4
-        System.out.println("Задача 4");
-        var friend = 19;
-        System.out.println(friend);
-        friend += 2;
-        System.out.println(friend);
-        friend /= 7;
-        System.out.println(friend);
+        //Задача 6
+        System.out.println("Задача 6");
+        var boxerOneWeight = 78.2;
+        var boxerTwoWeight = 82.7;
+        System.out.println("Общий вес двух бойцов " + (boxerOneWeight + boxerTwoWeight) + " кг");
+        System.out.println("Разница между весами бойцов " + (boxerTwoWeight - boxerOneWeight) + " кг");
 
-        //Задача 5
-        System.out.println("Задача 5");
-        var frog = 3.5;
-        System.out.println(frog);
-        frog *= 10;
-        System.out.println(frog);
-        frog /= 3.5;
-        System.out.println(frog);
-        frog += 4;
-        System.out.println(frog);
+        //Задача 7
+        System.out.println("Задача 7");
+        System.out.println("Разница между весами бойцов (1 способ) " + (boxerTwoWeight - boxerOneWeight) + " кг");
+        System.out.println("Разница между весами бойцов (2 способ) " + (boxerTwoWeight % boxerOneWeight) + " кг");
+
+        //Задача 8
+        System.out.println("Задача 8");
+        var workHours = 640;
+        var oneWorker = 8;
+        System.out.println("Всего работников в компании - " + (workHours / oneWorker) + " человек");
+        var allWorker = workHours / oneWorker + 94;
+        System.out.println(allWorker);
+        System.out.println("Если в компании работает " + allWorker + " человек, то всего " + (oneWorker * allWorker) + " часов работы может быть поделено между сотрудниками");
+
+
+
+
+
+
 
     }
 }
